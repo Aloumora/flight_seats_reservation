@@ -1,0 +1,283 @@
+body, html {
+    height: 100%;
+    font-family: "Source Code Pro";
+    margin: 0px; !important;
+    /*background-image: linear-gradient(0deg, white, ghostwhite),url(images/pattern.jpg);*/
+
+}
+
+
+
+/*h1 {
+    display: inline;
+    position: relative;
+    font: 50px Helvetica, Sans-Serif;
+    letter-spacing: 2px;
+    color: rgba(0,0,255,0.5);
+
+}
+
+h1:after {
+    content: "Flight seat reservation system";
+    position: absolute; left: 10px; top: 5px;
+    color: rgba(240, 241, 255, 0.5);
+}*/
+
+
+
+p{
+    color: #060d87;
+    /*font-size: small;*/
+    font-family: "Tw Cen MT";
+}
+
+h1{
+    color: #235bff;
+    font-family: "Tw Cen MT";
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    text-shadow: -3px -2px ghostwhite;
+    /*padding: 3px;*/
+}
+
+h2{
+    color: #235bff;
+    font-family: "Tw Cen MT";
+    font-variant: small-caps;
+    font-size: 1em;
+    letter-spacing: 3px;
+    /*text-shadow: -3px -2px ghostwhite;*/
+    /*padding: 3px;*/
+}
+
+
+
+h3{
+    color: #235bff;
+    font-family: "Tw Cen MT";
+    /*font-variant: small-caps;*/
+    font-variant: small-caps;
+    font-size: 1em;
+    letter-spacing: 3px;
+    /*text-shadow: -3px -2px ghostwhite;*/
+    padding: 3px;
+}
+
+
+
+div.container {
+    width: 100%;
+    min-height: 100%; !important;
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+}
+
+.grad {
+    font-size: 150%;
+    background-image: linear-gradient(0deg, rgba(255, 251, 255, 0), ghostwhite),url(images/sfondo.jpg);
+
+
+}
+
+footer {
+	font-family: "Tw Cen MT";
+    position: fixed; !important;
+    text-align: center;
+    color: #235bff;
+    background-color: #74a6ff;
+    width: 100%;
+    bottom: 0px;
+    padding-top:5px;
+    padding-bottom:1px;
+    height: 2rem;
+}
+
+header{
+    padding: 1px;
+    height: 5em;
+    color: #235bff;
+    background-color: #74a6ff;
+    clear: left;
+    text-align: center;
+}
+
+
+
+/*section{
+    float: right;
+    width: 60%;
+    padding: 0;
+    height: 100%;
+}*/
+
+.sectionCentered{
+    float: right;
+    width: 60%;
+    padding: 0;
+    height: 100%;
+}
+
+/*.sectionRight{
+    float: right;
+    width: 20%;
+    padding: 0;
+    height: 100%;
+}*/
+
+aside{
+    float: left;
+    width: 40%;
+    padding: 0;
+    height: 100%;
+}
+
+.containerMenu{
+    width: 100%;
+    padding: 0px;
+    float: inherit;
+}
+
+nav {
+	font-family: "Tw Cen MT";
+    float: left;
+    width: 60%;
+    padding: 0;
+    /*height: 100%;*/
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* safari, chrome */
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #235bff;/*colore base sfondo menu*/
+    text-align: center;
+    letter-spacing: 2px;
+    /*border-radius: 10px;
+    -moz-border-radius: 10px; /* firefox */
+    /*-webkit-border-radius: 10px; /* safari, chrome */
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px; /* firefox */
+    -webkit-border-radius: 0px 0px 10px 10px; /* safari, chrome */
+}
+
+li a {
+    display: block;
+    color: ghostwhite; /*testo menu*/
+    text-align: center;
+    font-size: 150%;
+    padding: 5%;
+    text-decoration: none;
+    /*border-bottom: 1px solid #b5d2ff;/*bordo menu*/
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* safari, chrome */
+
+}
+
+li a:hover {
+    background-color: #74a6ff;/*colore transizione menu*/
+    transition-duration: 1s;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px; /* firefox */
+    -webkit-border-radius: 0px 0px 10px 10px; /* safari, chrome */
+}
+
+li a.selected {
+    background-color: #235bff;/*colore base, prima casella menu*/
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px; /* firefox */
+    -webkit-border-radius: 0px 0px 10px 10px; /* safari, chrome */
+}
+
+li a.selected:hover {
+    background-color: #74a6ff;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px; /* firefox */
+    -webkit-border-radius: 0px 0px 10px 10px; /* safari, chrome */
+}
+
+
+article {
+    padding: 1em;
+    padding-bottom: inherit;
+    overflow: hidden;
+    height: 100%;
+    font-size: 110%;
+
+}
+
+.border-radius {
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* safari, chrome */
+}
+
+button, #enter{
+    background-color: #060d87;
+    border: none;
+    margin: 1em;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+}
+
+
+button:disabled{
+    background-color: rgba(89, 86, 135, 0.39);
+}
+button.disabled{
+    background-color: rgba(89, 86, 135, 0.39);
+}
+
+
+
+
+
+iframe{
+    overscroll-behavior: none;
+    height: 1000px;
+    width: 1000px;
+}
+
+#usr_msg, #pwd_msg, #conf_msg {
+    color: #235bff;
+}
+
+.isa_info {
+	font-family: "Tw Cen MT";
+    color: black;
+    background-color: darkgrey;
+}
+.isa_success {
+	font-family: "Tw Cen MT";
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+	font-family: "Tw Cen MT";
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+	font-family: "Tw Cen MT";
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin: 2px;
+    font-size: 100%;
+    vertical-align: middle;
+    padding: 0.5em;
+}
